@@ -4,7 +4,7 @@
 </h1>
 <h3 align="center">
   Just click the link below to open my GitHub Pages portfolio<br/>
-  <a href="https://michaltulik14.github.io" target="_blank">michaltulik14.github.io</a>
+  <a href="https://michaltulik14.github.io" target="_blank">michaltulik14.github.io/index.html</a>
 </h3>
 
 <br/>
