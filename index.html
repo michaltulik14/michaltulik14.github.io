@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        
+        <script src="https://kit.fontawesome.com/132a34b0f4.js" crossorigin="anonymous">
+        </script>
+
     </head>  
     <body>
+        
         <div class="video-wrapper">
             <video playsinline autoplay muted loop poster="">
                 <source src="media/video3.mp4" type="video/webm">
@@ -18,8 +20,8 @@
             <nav>
                 <h2 class="logo">Michał <span>Tulik</span></h2>
                 <ul>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
                 </ul>
@@ -33,30 +35,64 @@
                 </section>
             </div>
         </div>
-       
-
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script>
+            // Get the button:
+            let mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0; // For Safari
+              document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
+            </script>
 
 
         </div>  
-        <div class="project1">
+        <div class="project1" id="project">
+            <div class="left">
             <h1>My first project is... this website itself</h1>
             <section>
+                I have created this website using HTML, CSS and JavaScript.
                 I decided to use a video background, which has been downloaded from <a href="https://www.pexels.com/pl-pl/">pexels.com</a> website.
                 My website is using "Josefin Sans" font which has been imported to the .css file.
-                Click <span><a href="https://github.com/michaltulik14/michaltulik14.github.io/tree/main/website_project">here</a></span> to view the GitHub repository with the source code
-                
+                Also I used <a href="https://formsubmit.co/">FormSubmit</a> which takes care of form submission.
+                Every icon on this website was brought by <a href="https://fontawesome.com/">Font Awesome</a>.
+                Click <span><a href="https://github.com/michaltulik14/michaltulik14.github.io/tree/main/website_project">here</a></span> to view the GitHub repository with the source code.
             </section>
+            </div>
+            <div class="right">
+            <i class="fa-brands fa-html5"></i><br/>
+            <i class="fa-solid fa-code"></i>
+            </div>
+        </div>
+        <div class="project2">
+            <div class="left2">
+            
+            </div>
+            <div class="right2">
+                <h1>A django web application</h1>
+                <section>
+                    I decided to use a video background, which has been downloaded from <a href="https://www.pexels.com/pl-pl/">pexels.com</a> website.
+                    My website is using "Josefin Sans" font which has been imported to the .css file.
+                    Click <span><a href="https://github.com/michaltulik14/michaltulik14.github.io/tree/main/website_project">here</a></span> to view the GitHub repository with the source code
+                    
+                </section>
+            </div>
         </div>
         <div class="project1">
-            <h1>A django web application</h1>
-            <section>
-                I decided to use a video background, which has been downloaded from <a href="https://www.pexels.com/pl-pl/">pexels.com</a> website.
-                My website is using "Josefin Sans" font which has been imported to the .css file.
-                Click <span><a href="https://github.com/michaltulik14/michaltulik14.github.io/tree/main/website_project">here</a></span> to view the GitHub repository with the source code
-                
-            </section>
-        </div>
-        <div class="project1">
+            <div class="left">
             <h1>A simple application</h1>
             <section>
                 I decided to use a video background, which has been downloaded from <a href="https://www.pexels.com/pl-pl/">pexels.com</a> website.
@@ -64,25 +100,35 @@
                 Click <span><a href="https://github.com/michaltulik14/michaltulik14.github.io/tree/main/website_project">here</a></span> to view the GitHub repository with the source code
                 
             </section>
+            </div>
+            <div class="right">
+                <i class="fa-brands fa-python"></i><br/>
+                <i class="fa-brands fa-apple"></i>
+            </div>
         </div>
-        <div class="contact">
+        <div class="contact" id="contact">
             <h1>Contact me</h1>
             <section>
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/michal-tulik/">Linkedin</a></li>
-                    <li><a href="https://www.facebook.com/michaltulik">Facebook</a></li>
-                    <li>Send mail :</li>
+                    
+                    <li<i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/michal-tulik/">Linkedin</a></li>
+                    <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/michaltulik">Facebook</a></li><br/><br/>
+                    <li>Send me a message :</li>
                     
                 </ul>
                 <form action="https://formsubmit.co/tulikmichal99@gmail.com" method="POST">
-                    <input type="email" name="email" placeholder="Email Addrees" required>
-                    <input type="text" name="name" placeholder="Your message" required>
+                    <input type="email" name="email" placeholder="Email Addrees" required><br/><br/>
+                    <input type="text" name="name" placeholder="Your message" size="30" required>
                     <input type="hidden" name="_subject" value="New email">
-                    <input type="hidden" name="_next" value="#">
-                    <button type="submit">Send</button>
+                    <input type="hidden" name="_next" value="#"><br/>
+                    <button id="button" type="submit">Send</button>
+                    
                 </form>
             </section>
         </div>
         <footer>2023 created by Michał Tulik </footer>
     </body>
 </html>
+
+
+
