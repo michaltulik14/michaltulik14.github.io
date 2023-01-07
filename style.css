@@ -168,14 +168,14 @@ input[type=text]
     
     border-radius: 4px;   
     font-size: 20px; 
-    height:5vh;
+    
 }
 
 input[type=email]
 {
-    text-align: center;
+    
     border-radius: 4px;
-    height:5vh;
+    
     font-size: 20px;
 }
 
