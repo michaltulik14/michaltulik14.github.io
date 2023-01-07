@@ -3,11 +3,21 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/132a34b0f4.js" crossorigin="anonymous">
-        </script>
+        <script src="https://kit.fontawesome.com/132a34b0f4.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
     </head>  
     <body>
+        
+
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+          </div>
+        <script>
+            $(window).on("load",function(){
+              $(".loader-wrapper").fadeOut("5s");
+            });
+        </script>
         
         <div class="video-wrapper">
             <video playsinline autoplay muted loop poster="">
@@ -22,8 +32,7 @@
                 <ul>
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    
                 </ul>
             </nav>
             <div class="home">
