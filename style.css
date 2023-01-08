@@ -211,9 +211,9 @@ input[type=email]
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-top: 1px solid rgb(35, 83, 0);
+    
     border-right: 1px solid rgb(35, 83, 0);
-    border-bottom: 1px solid black;
+    
     padding-top: 15%;
     padding-left: 25vh;
     padding-right: 25vh;
@@ -253,14 +253,14 @@ input[type=email]
     align-items: center;
     text-align: center;
     color: white;
-    border-bottom: 1px solid black;
+
     padding-top: 25%;
     padding-left: 15vh;
     padding-right: 15vh;
     background-color: black;
-    background-image: url(media/coding2.jpg);
+    
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     opacity: 0.3;
   }
   .left2 a{
@@ -274,8 +274,8 @@ input[type=email]
     text-align: center;
     font-size: 200px;
     padding-top: 25vh;
-    background-color: black;
-    color: white;
+    background-color: rgb(59, 142, 0);
+    color: black;
     padding-top: 15%;
     padding-left: 25vh;
     padding-right: 25vh;
@@ -302,6 +302,11 @@ input[type=email]
     color: white;
     line-height: 10vh;
 }
+.contact i 
+    {
+        padding-right: 30px;
+
+    }
 
 form{
     margin-top: 5vh;
@@ -395,6 +400,11 @@ input{
     {
         font-size: 50px;
     }
+    .contact i
+    {
+        font-size: 30px;
+       
+    }
     .left section, .left,.right2,.right2 section{
         font-size: 10px;
         line-height: 20px;
@@ -412,10 +422,12 @@ input{
     }
     .contact h1,a,li{
         font-size: 20px;
+        
     }
     .contact{
-        height:150vh;
+        height:100vh;
     }
+    
     #button
 {
     color:black;
@@ -434,4 +446,8 @@ input{
     background-color:rgb(59, 142, 0);
     transform: scale(1.1);
 }
+    input[type=email],input[type=text]
+    {
+        font-size: 15px;
+    }
 }
