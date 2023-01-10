@@ -35,7 +35,7 @@ def button_comand():
 
         siema.config(text=result)     
 
-        
+        a= 1231231
 
 entry1 = Entry(root, width=20)
 entry1.pack()
