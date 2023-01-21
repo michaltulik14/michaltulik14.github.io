@@ -234,8 +234,10 @@ input[type=email]
     text-align: center;
     font-size: 200px;
     padding-top: 25vh;
+    padding-bottom: 15vh;
     background-color: black;
     color: green;
+    
   }
 
   .project2
@@ -418,7 +420,13 @@ input{
     }
     .right
     {
-        padding-top: 0;
+        padding-top: 15vh;
+        
+               
+    }
+    .right img{
+        max-width: 100%;
+        height: auto;
     }
     .contact h1,a,li{
         font-size: 20px;
