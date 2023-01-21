@@ -201,33 +201,33 @@ input[type=email]
     transition: .3s;
   }
   
-  #myBtn:hover {
+    #myBtn:hover {
     background-color: rgb(59, 142, 0);
     transform: scale(1.1);
-  }
-  .left
-  {
+    }
+    .left
+    {
     width: 65vw;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
     border-right: 1px solid rgb(35, 83, 0);
-    
+
     padding-top: 15%;
     padding-left: 25vh;
     padding-right: 25vh;
-  }
-  .left h1{
+    }
+    .left h1{
     font-size: 50px;
-  }
-  .left section{
+    }
+    .left section{
     font-size: 25px;
     font-weight: 300;
     line-height: 40px;
-  }
-  .right
-  {
+    }
+    .right
+    {
     width: 35vw;
     justify-content: center;
     align-items: center;
@@ -237,19 +237,19 @@ input[type=email]
     padding-bottom: 15vh;
     background-color: black;
     color: green;
-    
-  }
 
-  .project2
-  {
-      display: flex;
-      width: 100%;
-      height: 100vh;
-      color: black;
-      background-color:black;
-  }
-  .left2
-  {
+    }
+
+    .project2
+    {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        color: black;
+        background-color:black;
+    }
+    .left2
+    {
     width: 40vw;
     justify-content: center;
     align-items: center;
@@ -260,16 +260,16 @@ input[type=email]
     padding-left: 15vh;
     padding-right: 15vh;
     background-color: black;
-    
+
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.3;
-  }
-  .left2 a{
+    }
+    .left2 a{
     color:rgb(59, 142, 0);
-  }
-  .right2
-  {
+    }
+    .right2
+    {
     width: 60vw;
     justify-content: center;
     align-items: center;
@@ -281,47 +281,47 @@ input[type=email]
     padding-top: 15%;
     padding-left: 25vh;
     padding-right: 25vh;
-  }
+    }
 
-  .right2 h1{
+    .right2 h1{
     font-size: 50px;
-  }
-  .right2 section{
+    }
+    .right2 section{
     padding-top: 15vh;
     font-size: 25px;
     font-weight: 300;
     line-height: 40px;
-  }
+    }
 
-.contact ul{
+    .contact ul{
     list-style-type: none;
     font-size: 30px;
-    
-   
-}
-.contact ul a{
+
+
+    }
+    .contact ul a{
     text-decoration: none;
     color: white;
     line-height: 10vh;
-}
-.contact i 
+    }
+    .contact i 
     {
         padding-right: 30px;
 
     }
 
-form{
+    form{
     margin-top: 5vh;
-}
-input{
+    }
+    input{
     margin-top: 10px;
     margin-bottom: 10px;
     outline: none;
     width: 25%;
-    
-}
-#button
-{
+
+    }
+    #button
+    {
     color:black;
     background-color:white;
     font-size: 20px;
@@ -385,8 +385,8 @@ input{
   75% { height: 100%;}
   100% { height: 0%;}
 }
-
-@media only screen and (max-width: 1200px)
+/* Styling for smaller screen behaviour */
+@media only screen and (max-width: 1200px) 
 {
     nav ul li a{
         font-size: 15px;
