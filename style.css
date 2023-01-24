@@ -288,7 +288,7 @@ input[type=email]
     align-items: center;
     text-align: center;
     font-size: 200px;
-    padding-top: 25vh;
+    padding-top: 10vh;
     background-color: rgb(59, 142, 0);
     color: black;
     
@@ -428,8 +428,8 @@ input[type=email]
     .left section, .left,.right2,.right2 section{
         font-size: 15px;
         line-height: 20px;
-        padding-left: 5vh;
-        padding-right: 5vh;
+        padding-left: 10px;
+        padding-right: 10px;
         
     }
     .left h1, .right2 h1,.left section a,.right2 section a{
