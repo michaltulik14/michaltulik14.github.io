@@ -35,7 +35,7 @@ video
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  
 }
 .logo
 {
@@ -49,6 +49,7 @@ video
     color: white;
     text-decoration-color: white;
     position: relative;
+    
 }
 
 nav{
@@ -360,7 +361,7 @@ input[type=email]
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #242f3f;
+  background-color: #000000;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -435,14 +436,12 @@ input[type=email]
         font-size: 15px;
         padding-top: 10vh;
     }
-    .right
-    {
-        padding-top: 30vh;
-        
-               
-    }
+    
     .right img{
-        height: 50%;
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-items: center;
     }
     .contact h1,a,li{
         font-size: 20px;
@@ -453,24 +452,24 @@ input[type=email]
     }
     
     #button
-{
-    color:black;
-    background-color:white;
-    font-size: 13px;
-    outline: none;
-    box-sizing: border-box;
-    border-radius:25%;
-    border: 1px solid black;
-    padding: 10px;
-    margin-top: 30px;
-    cursor: pointer;
-    transition: .3s;
-}
+    {
+        color:black;
+        background-color:white;
+        font-size: 13px;
+        outline: none;
+        box-sizing: border-box;
+        border-radius:25%;
+        border: 1px solid black;
+        padding: 10px;
+        margin-top: 30px;
+        cursor: pointer;
+        transition: .3s;
+    }
 #button:hover{
     background-color:rgb(59, 142, 0);
     transform: scale(1.1);
-}
-    input[type=email],input[type=text]
+    }
+input[type=email],input[type=text]
     {
         font-size: 15px;
     }
