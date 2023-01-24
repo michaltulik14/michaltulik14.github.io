@@ -426,14 +426,14 @@ input[type=email]
         font-size: 25px;
     }
     .left section, .left,.right2,.right2 section{
-        font-size: 15px;
+        font-size: 25px;
         line-height: 20px;
         padding-left: 10px;
         padding-right: 10px;
         
     }
     .left h1, .right2 h1,.left section a,.right2 section a{
-        font-size: 15px;
+        font-size: 25px;
         padding-top: 10vh;
     }
     
