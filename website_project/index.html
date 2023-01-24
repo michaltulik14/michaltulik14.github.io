@@ -2,12 +2,23 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/132a34b0f4.js" crossorigin="anonymous">
-        </script>
+        <script src="https://kit.fontawesome.com/132a34b0f4.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
     </head>  
     <body>
+        
+
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+          </div>
+        <script>
+            $(window).on("load",function(){
+              $(".loader-wrapper").fadeOut("5s");
+            });
+        </script>
         
         <div class="video-wrapper">
             <video playsinline autoplay muted loop poster="">
@@ -22,14 +33,13 @@
                 <ul>
                     <li><a href="#project">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    
                 </ul>
             </nav>
             <div class="home">
                 <h2>Welcome on my <span>portfolio</span> website.</h2>        <br/>        
                 <section>
-                    My name is Michał Tulik and this website has been designed to demonstrate some of my interests and skills.
+                    My name is Michał Tulik and this website has been designed to demonstrate some of my projects and skills.
                     
                     Scroll down to view my projects.
                 </section>
@@ -56,7 +66,7 @@
               document.body.scrollTop = 0; // For Safari
               document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
             }
-            </script>
+        </script>
 
 
         </div>  
@@ -65,16 +75,17 @@
             <h1>My first project is... this website itself</h1>
             <section>
                 I have created this website using HTML, CSS and JavaScript.
-                I decided to use a video background, which has been downloaded from <a href="https://www.pexels.com/pl-pl/">pexels.com</a> website.
-                My website is using "Josefin Sans" font which has been imported to the .css file.
-                Also I used <a href="https://formsubmit.co/">FormSubmit</a> which takes care of form submission.
+                I decided to use a background video, which has been downloaded from <a href="https://www.pexels.com/pl-pl/">pexels.com</a>.
+                My website is using "Josefin Sans" font - imported from <a href="https://fonts.google.com/">Google Fonts</a>.
+                Also, I used <a href="https://formsubmit.co/">FormSubmit</a> which takes care of form submission.
                 Every icon on this website was brought by <a href="https://fontawesome.com/">Font Awesome</a>.
                 Click <span><a href="https://github.com/michaltulik14/michaltulik14.github.io/tree/main/website_project">here</a></span> to view the GitHub repository with the source code.
             </section>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-solid fa-code"></i>
             </div>
             <div class="right">
-            <i class="fa-brands fa-html5"></i><br/>
-            <i class="fa-solid fa-code"></i>
+            
             </div>
         </div>
         <div class="project2">
@@ -93,17 +104,20 @@
         </div>
         <div class="project1">
             <div class="left">
-            <h1>A simple application</h1>
+            <h1>A simple converter application</h1>
             <section>
-                I decided to use a video background, which has been downloaded from <a href="https://www.pexels.com/pl-pl/">pexels.com</a> website.
-                My website is using "Josefin Sans" font which has been imported to the .css file.
-                Click <span><a href="https://github.com/michaltulik14/michaltulik14.github.io/tree/main/website_project">here</a></span> to view the GitHub repository with the source code.
+                Using <a href="https://www.python.org/">Python</a> I've created a simple converter application that will download a video from youtube and extract it's audio.
+                GUI has been designed using <a href="https://pypi.org/project/customtkinter/0.3/">Customtkinter </a>library.
+                The movie is being downloaded using <a href="https://pytube.io/en/latest/">Pytube</a> library and converted to the audio file using <a href="https://pypi.org/project/moviepy/">Moviepy</a>.
+                So far I was able to build this applicaiton using <a href="https://pyinstaller.org">PyInstaller</a> however it's not ready for a full release on every platform yet.
+                Click <span><a href="https://github.com/michaltulik14/michaltulik14.github.io/tree/main/app_project">here</a></span> to view the GitHub repository with the source code.
                 
             </section>
             </div>
-            <div class="right">
-                <i class="fa-brands fa-python"></i><br/>
-                <i class="fa-brands fa-apple"></i>
+            <div class="right" style="opacity: 1; background-image: url();">
+                <!-- <i class="fa-brands fa-python"></i><br/>
+                <i class="fa-brands fa-apple"></i> -->
+                <img src="media/youconvert.png"/>
             </div>
         </div>
         <div class="contact" id="contact">
@@ -111,7 +125,7 @@
             <section>
                 <ul>
                     
-                    <li<i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/michal-tulik/">Linkedin</a></li>
+                    <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/michal-tulik/">Linkedin</a></li>
                     <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/michaltulik">Facebook</a></li><br/><br/>
                     <li>Send me a message :</li>
                     
@@ -126,7 +140,7 @@
                 </form>
             </section>
         </div>
-        <footer>2023 created by Michał Tulik </footer>
+        <footer>2023 created by Michał Tulik  </footer>
     </body>
 </html>
 
