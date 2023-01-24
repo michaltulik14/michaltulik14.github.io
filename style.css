@@ -107,7 +107,9 @@ nav ul li a:hover{
     width: 100%;
     height: 100vh;
     color: black;
-    background-color:rgb(59, 142, 0);
+    
+    
+    background-color:black;
 }
 .project1 a
 {
@@ -211,12 +213,18 @@ input[type=email]
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    background-color: rgb(59, 142, 0);
+    
     border-right: 1px solid rgb(35, 83, 0);
 
     padding-top: 15%;
     padding-left: 25vh;
     padding-right: 25vh;
+    }
+    .left i
+    {
+        padding-top: 25px;
+        font-size: 50px;
     }
     .left h1{
     font-size: 50px;
@@ -229,15 +237,21 @@ input[type=email]
     .right
     {
     width: 35vw;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items:center;
+    
     font-size: 200px;
-    padding-top: 25vh;
-    padding-bottom: 15vh;
-    background-color: black;
     color: green;
-
+    background-image: url("media/photo_right.jpg");
+    background-size: cover;
+    background-size: 100%;
+    opacity: 0.5;
+    background-color: black;
+    }
+    .right img{
+        
+        height: 60%;
     }
 
     .project2
@@ -250,27 +264,23 @@ input[type=email]
     }
     .left2
     {
-    width: 40vw;
+    width: 35vw;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-
-    padding-top: 25%;
-    padding-left: 15vh;
-    padding-right: 15vh;
     background-color: black;
-
+    background-image: url("media/photo_left.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.3;
+    background-size:100% 100% ;
+    opacity: 0.5;
     }
     .left2 a{
     color:rgb(59, 142, 0);
     }
     .right2
     {
-    width: 60vw;
+    width: 65vw;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -278,7 +288,7 @@ input[type=email]
     padding-top: 25vh;
     background-color: rgb(59, 142, 0);
     color: black;
-    padding-top: 15%;
+    
     padding-left: 25vh;
     padding-right: 25vh;
     }
@@ -425,8 +435,7 @@ input[type=email]
                
     }
     .right img{
-        max-width: 100%;
-        height: auto;
+        height: 50%;
     }
     .contact h1,a,li{
         font-size: 20px;
