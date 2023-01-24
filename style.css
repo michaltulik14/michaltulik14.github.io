@@ -35,6 +35,7 @@ video
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 .logo
 {
@@ -245,7 +246,8 @@ input[type=email]
     color: green;
     background-image: url("media/photo_right.jpg");
     background-size: cover;
-    background-size: 100%;
+    background-size: auto 120%;
+    background-repeat: no-repeat;
     opacity: 0.5;
     background-color: black;
     }
@@ -272,7 +274,7 @@ input[type=email]
     background-color: black;
     background-image: url("media/photo_left.jpg");
     background-repeat: no-repeat;
-    background-size:100% 100% ;
+    background-size:auto 120%;
     opacity: 0.5;
     }
     .left2 a{
