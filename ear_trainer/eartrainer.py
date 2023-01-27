@@ -35,7 +35,7 @@ class Window(QWidget):
         layout = QGridLayout()
         self.setLayout(layout)    
         
-        #Create Perfect pitch TAB
+#Create Perfect pitch TAB
         tab = QTabWidget()
         perfectpitch = QWidget(self)
         layout1=QGridLayout()  
@@ -50,7 +50,7 @@ class Window(QWidget):
         layout.addWidget(tab,0,4) # ADD Layout to the main layout
 
 
-        #Create Chords TAB
+#Create Chords TAB
 
         tab_chord = QTabWidget()
         chords = QWidget(self)
@@ -59,7 +59,19 @@ class Window(QWidget):
         chords.setLayout(layout5)
         tab.addTab(chords,"Chords")         #Add Tab to page
 
+
         layout.addWidget(tab_chord,1,0)
+
+#Create Intervals TAB
+
+        tab_interval = QTabWidget()
+        interval = QWidget(self)
+        layout8 = QGridLayout()
+
+        interval.setLayout(layout8)
+        tab.addTab(interval,"Intevals")         #Add Tab to page
+
+        layout.addWidget(tab_interval,2,0)
 
 # CREATING BUTTONS AND LABELS FOR PERFECT PITCH (TAB 1)           
 
