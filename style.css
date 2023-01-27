@@ -243,15 +243,15 @@ input[type=email]
     display: flex;
     justify-content: center;
     align-items:center;
-    
     font-size: 200px;
     color: green;
     background-image: url("media/photo_right.jpg");
     background-size: cover;
     background-size: auto 120%;
     background-repeat: no-repeat;
-    opacity: 0.5;
+    opacity: 0.7;
     background-color: black;
+    
     }
     .right img{
         
@@ -269,6 +269,7 @@ input[type=email]
     .left2
     {
     width: 35vw;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -277,10 +278,15 @@ input[type=email]
     background-image: url("media/photo_left.jpg");
     background-repeat: no-repeat;
     background-size:auto 120%;
-    opacity: 0.5;
+    opacity: 0.7;
     }
     .left2 a{
     color:rgb(59, 142, 0);
+    }
+    .left2 img
+    {
+        height: 60%;
+        
     }
     .right2
     {
@@ -292,7 +298,7 @@ input[type=email]
     padding-top: 10vh;
     background-color: rgb(59, 142, 0);
     color: black;
-    
+    padding-top: 25vh;
     padding-left: 25vh;
     padding-right: 25vh;
     }
