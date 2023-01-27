@@ -17,6 +17,7 @@ from PyQt6.QtGui import QIcon
 import sys
 
 all_notes = ["C","D","E","F","G","A","B","C#","D#","F#","G#","A#"]
+all_chords = ["cmaj","cmin"]
 sound_path = "/Users/michal/Documents/portfolio/michaltulik14.github.io/ear_trainer/"
 format = ".mp3"
 
@@ -311,6 +312,28 @@ class Window(QWidget):
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
+
+    def display_chord(self):
+        
+        #self.note = "D"
+        self.chord = random.choice(all_chords)
+        self.result_label.setText("")
+        self.choice = sound_path+self.note+format
+        play_note = AudioSegment.from_mp3(self.choice)
+        play(play_note)
+        print(self.note)
+    
+    def again_chord(self):
+        #play note once again
+
+        play_note = AudioSegment.from_mp3(self.choice)
+        play(play_note)
+        
+
+
+
+
+
 app = QApplication(sys.argv)
 
 #styling
@@ -345,4 +368,4 @@ app.setStyleSheet("""
 
 window = Window()
 window.show()
-sys.exit(app.exec())      
+sys.exit(app.exec())
