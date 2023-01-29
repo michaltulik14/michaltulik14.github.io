@@ -296,7 +296,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display) 
@@ -307,7 +307,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -317,7 +317,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -327,7 +327,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -337,7 +337,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -347,7 +347,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -357,7 +357,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -367,7 +367,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -377,7 +377,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -387,7 +387,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -397,7 +397,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -407,7 +407,7 @@ class Window(QWidget):
             self.result_label.setText("Correct")
             self.result_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.result_label.setText("Wrong")
             self.result_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display)
@@ -437,7 +437,7 @@ class Window(QWidget):
             self.chord_label.setText("Correct")
             self.chord_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.chord_label.setText("Wrong")
             self.chord_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_chord)
@@ -448,7 +448,7 @@ class Window(QWidget):
             self.chord_label.setText("Correct")
             self.chord_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.chord_label.setText("Wrong")
             self.chord_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_chord)
@@ -458,7 +458,7 @@ class Window(QWidget):
             self.chord_label.setText("Correct")
             self.chord_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.chord_label.setText("Wrong")
             self.chord_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_chord)
@@ -468,7 +468,7 @@ class Window(QWidget):
             self.chord_label.setText("Correct")
             self.chord_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.chord_label.setText("Wrong")
             self.chord_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_chord)
@@ -478,7 +478,7 @@ class Window(QWidget):
             self.chord_label.setText("Correct")
             self.chord_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.chord_label.setText("Wrong")
             self.chord_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_chord)
@@ -508,7 +508,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -519,7 +519,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -529,7 +529,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -539,7 +539,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -550,7 +550,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -561,7 +561,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -572,7 +572,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -583,7 +583,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -594,7 +594,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -605,7 +605,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
@@ -616,7 +616,7 @@ class Window(QWidget):
             self.interv_label.setText("Correct")
             self.interv_label.setStyleSheet("color:green;")
         else:
-            print("chujowo")
+            print("fail")
             self.interv_label.setText("Wrong")
             self.interv_label.setStyleSheet("color:red;")
         QTimer.singleShot(2000,self.display_interv)
