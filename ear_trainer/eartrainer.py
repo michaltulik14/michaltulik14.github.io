@@ -268,9 +268,7 @@ class Window(QWidget):
         w7_interv = QPushButton("M7")
         w7_interv.setFixedWidth(100)
         layout8.addWidget(w7_interv, 3,2,Qt.AlignmentFlag.AlignLeft)
-        w7_interv.clicked.connect(self.verify_w7interv)
-
-        
+        w7_interv.clicked.connect(self.verify_w7interv)      
         
         
 # PLAYING SINGLE NOTES 

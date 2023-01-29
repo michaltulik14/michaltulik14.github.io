@@ -444,7 +444,7 @@ input[type=email]
         padding-top: 10vh;
     }
     
-    .right img{
+    .right img, .left2 img{
         width: 80%;
         height: auto;
         display: flex;
