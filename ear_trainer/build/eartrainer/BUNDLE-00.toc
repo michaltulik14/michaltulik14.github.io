@@ -1,0 +1,3 @@
+([('eartrainer',
+   '/Users/michal/Documents/portfolio/michaltulik14.github.io/ear_trainer/dist/eartrainer',
+   'EXECUTABLE')],)
