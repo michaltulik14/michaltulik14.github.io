@@ -19,7 +19,7 @@ import sys
 all_notes = ["C","D","E","F","G","A","B","C#","D#","F#","G#","A#"]
 all_chords = ["cmaj","cmin","dom7","min7","maj7"]
 all_interv = ["2m","2w","3m","3w","trit","4th","5th","6m","6w","7m","7w"]
-sound_path = "/Users/michal/Documents/portfolio/michaltulik14.github.io/ear_trainer/"
+sound_path = "/Users/michal/Documents/portfolio/michaltulik14.github.io/ear_trainer/sounds/"
 format = ".mp3"
 
 class Window(QWidget):
