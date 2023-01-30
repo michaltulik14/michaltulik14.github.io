@@ -247,9 +247,8 @@ input[type=email]
     color: green;
     background-image: url("media/photo_right.jpg");
     background-size: cover;
-    background-size: auto 120%;
+    background-size: auto 140%;
     background-repeat: no-repeat;
-    opacity: 1;
     background-color: black;
     
     }
