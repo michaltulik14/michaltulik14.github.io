@@ -192,17 +192,17 @@ input[type=email]
 #myBtn {
     display:none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 3vh; /* Place the button at the bottom of the page */
-    right: 3vw; /* Place the button 30px from the right */
+    bottom: 3vh; 
+    right: 3vw; 
     z-index: 99; /* Make sure it does not overlap */
-    border: 2px solid black; /* Remove borders */
-    outline: none; /* Remove outline */
+    border: 2px solid black;
+    outline: none; 
     background-color: rgb(255, 0, 0);
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius:25%; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    color: white;
+    cursor: pointer;
+    padding: 15px; 
+    border-radius:25%;
+    font-size: 18px; 
     transition: .3s;
   }
   
@@ -274,10 +274,10 @@ input[type=email]
     text-align: center;
     color: white;
     background-color: black;
-    background-image: url("media/photo_left.jpg");
+    background-image: url("media/photo_left2.jpg");
     background-repeat: no-repeat;
     background-size:auto 120%;
-    opacity: 0.7;
+
     }
     .left2 a{
     color:rgb(59, 142, 0);
