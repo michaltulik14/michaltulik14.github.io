@@ -60,8 +60,17 @@ customtkinter.set_default_color_theme("dark-blue")
 root = customtkinter.CTk()
 root.geometry("600x600")
 root.configure(bg="blue")
-
 root.title("YouConvert")
+root.resizable(False,False)
+
+
+bg = PhotoImage(file="dalle3.png")
+
+
+my_label = Label(root, image=bg)
+my_label.place(x=0,y=0,relwidth=1,relheight=1)
+
+
 
 #Enter link - Label
 label1=customtkinter.CTkLabel(root, text="Enter YouTube video URL",font=('',20))
