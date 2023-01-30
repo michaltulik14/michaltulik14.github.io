@@ -26,9 +26,12 @@ class Window(QWidget):
     def __init__(self):
         super().__init__()
        
+
         self.setFixedSize(600,600)
-     
+
         self.setWindowTitle("EarTrainer")
+
+
         self.note = ""
         self.interv = ""
         self.chord = ""
@@ -629,12 +632,14 @@ app.setStyleSheet("""
     QWidget{
         background-color: #353535;
         color:black;
+        
     }
     QLineEdit{
         background-color:white;
     }
     QLabel{
         color:black;
+        
     }
     QPushButton{
         color:black;
