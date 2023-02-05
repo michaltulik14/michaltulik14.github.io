@@ -29,7 +29,7 @@ Projects were built using these technologies :
 - HTML
 - CSS
 - Python
-- Django
+- Javascript
 
 
 ## Contact me 
