@@ -17,8 +17,8 @@ I have uploaded 3 of my projects in order to demonstrate my skills  :
   Check out the **website_project** folder for more details.
 - An application dedicated for MacOS devices, created using **Python** and it's **Tkinter** library.
   Check out the **app_project** folder for more details.
-- A web application, created with **Python** and **Django** framework.
-  Check out the **django_project** folder for more details.
+- An ear training application, created with **Python** and **PyQt6** libray.
+  Check out the **ear_trainer** folder for more details.
 
 ## Built With
 
